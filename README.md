@@ -19,26 +19,31 @@
    ```bash
    git clone https://github.com/Majjora/Noxus.git
    cd Noxus/Landing
+   ```
 
 2. Instale as dependências:
    ```bash
    npm install
+   ```
 
 3. Execute a aplicação:
    ```bash
    ng serve
-   Depois, acesse: http://localhost:4200/
+   ```
+   Depois, acesse: `http://localhost:4200/`
 
 ---
 
 ## 🌍 Deploy
-- Feito via Vercel com deploy contínuo pelo GitHub.
 
-- A cada push no branch main, o Vercel compila e atualiza o site automaticamente.
+- Feito via [Vercel](https://vercel.com) com deploy contínuo pelo GitHub.
+- A cada `push` no branch `main`, o Vercel compila e atualiza o site automaticamente.
 
 ---
 
 ## 🧱 Estrutura do Projeto
+
+```
 Landing/
 ├── src/
 │   ├── app/
@@ -52,48 +57,42 @@ Landing/
 ├── angular.json
 ├── package.json
 └── README.md
+```
 
 ---
 
 ## 🎨 Identidade Visual
-- Cor principal: #123458 (azul escuro)
 
-- Cor de fundo clara: #F1EFEC
-
+- **Cor principal**: `#123458` (azul escuro)
+- **Cor de fundo clara**: `#F1EFEC`
 - Tipografia moderna e minimalista
-
-- Visual técnico inspirado na linha Acer Nitro
+- Visual técnico inspirado na linha **Acer Nitro**
 
 ---
 
 ## 📌 Funcionalidades
+
 - Landing Page moderna com navegação fluida
-
-- Componentes standalone com RouterOutlet
-
-- Links: Home e Produto
-
+- Componentes standalone com `RouterOutlet`
+- Links: Home, Produto (sobre), e mais
 - Favicon personalizado incluso
 
 ---
 
 ## ✅ Boas Práticas
-- Uso de fontes externas controlado via <link> em index.html
 
+- Uso de fontes externas controlado via `<link>` em `index.html`
 - Componentização clara e modular
-
 - Preparado para expansão (seções adicionais, responsividade)
 
 ---
 
 ## 🌐 Links Importantes
-- Repositório GitHub: Majjora/Noxus
 
-- Deploy Vercel: https://noxus-khaki.vercel.app/home
+- Repositório GitHub: [Majjora/Noxus](https://github.com/Majjora/Noxus)
+- Deploy Vercel: *https://noxus-khaki.vercel.app/home*
 
-
-
-Noxus – Performance. Design. Liberdade.
+---
 
 
-
+**Noxus** – Performance. Design. Liberdade.
