@@ -1,27 +1,99 @@
-# Landing
+# 🖥️ Noxus – Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+**Noxus** é a landing page oficial de um notebook fictício, projetado com Angular. Inspirado no estilo e performance do Acer Nitro 5, o site apresenta a marca com identidade forte, moderna e responsiva.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologias Utilizadas
 
-## Code scaffolding
+- Angular (standalone components)
+- HTML5 / CSS3
+- TypeScript
+- Vercel (Deploy contínuo via GitHub)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🔧 Instalação e Execução Local
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Majjora/Noxus.git
+   cd Noxus/Landing
 
-## Running unit tests
+2. Instale as dependências:
+   ```bash
+   npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Execute a aplicação:
+   ```bash
+   ng serve
+   Depois, acesse: http://localhost:4200/
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🌍 Deploy
+- Feito via Vercel com deploy contínuo pelo GitHub.
 
-## Further help
+- A cada push no branch main, o Vercel compila e atualiza o site automaticamente.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 🧱 Estrutura do Projeto
+Landing/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── home/
+│   │   │   └── about/
+│   ├── assets/
+│   │   └── imagens, favicon.ico, etc.
+│   ├── index.html
+│   └── styles.css
+├── angular.json
+├── package.json
+└── README.md
+
+---
+
+## 🎨 Identidade Visual
+- Cor principal: #123458 (azul escuro)
+
+- Cor de fundo clara: #F1EFEC
+
+- Tipografia moderna e minimalista
+
+- Visual técnico inspirado na linha Acer Nitro
+
+---
+
+## 📌 Funcionalidades
+- Landing Page moderna com navegação fluida
+
+- Componentes standalone com RouterOutlet
+
+- Links: Home e Produto
+
+- Favicon personalizado incluso
+
+---
+
+## ✅ Boas Práticas
+- Uso de fontes externas controlado via <link> em index.html
+
+- Componentização clara e modular
+
+- Preparado para expansão (seções adicionais, responsividade)
+
+---
+
+## 🌐 Links Importantes
+- Repositório GitHub: Majjora/Noxus
+
+- Deploy Vercel: https://noxus-khaki.vercel.app/home
+
+
+
+Noxus – Performance. Design. Liberdade.
+
+
+
