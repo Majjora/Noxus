@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+:root {
+    --cor-primaria: #F1EFEC;
+    --cor-secundaria: #D4C9BE;
+    --cor-terciaria: #123458;
+    --cor-hover: #e9e7e4;
+    --cor-hover2: #7394b4;;
+
+    --fonte-principal: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+    --fonte-terciaria: 'Krona One', sans-serif;
+}
